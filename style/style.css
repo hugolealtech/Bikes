@@ -1,0 +1,106 @@
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header, main, footer{
+
+    width: 100%;
+
+}
+
+:root{
+    --primaria: rgb(29, 28, 28);
+    --secundaria: gray;
+
+
+}
+
+nav{
+    background-color: var(--primaria);
+}
+
+#banner{
+
+    width: 100%;
+    height: 800px;
+    background-color: rgb(226, 138, 66);
+    display: flex;
+    justify-content: center;
+    background-image: url(/Bikes/images/ImagensGeral/5ff4c435731c3798850d206a641fcc58.jpg);
+    /* backgound repeat -   configuração de repetição de imagens*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 100%;  altura e largura*/
+    /* background-position - posiciona a imagem dentro do banner */
+    background-position: center;
+}
+
+#logo{
+
+   
+    width: 8%;
+}
+
+#logo img{
+
+    width: 150%;
+   
+    
+}
+header nav{
+
+    
+    background-color: var(--primaria);
+    width: 100%;
+    height: 100px;
+    color: rgb(123, 125, 128);   
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#navegacao nav a {
+    margin: 0px 15px;
+    color: var(--secundaria);
+    text-decoration: none;
+ }
+ 
+ #noticias {
+    
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between; /* Espaço igual entre as imagens */
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+ 
+#noticias img {
+    width: 25%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 60%;
+    margin: 0 15px;
+}
+
+
+
+
+footer{
+    background-color: var(--primaria);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    
+}
