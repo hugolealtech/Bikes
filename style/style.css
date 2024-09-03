@@ -16,6 +16,8 @@ header, main, footer{
     --primaria: rgb(29, 28, 28);
     --secundaria: gray;
     --terciaria:rgb(74, 231, 87);
+    --quaternaria:rgb(226, 127, 46);
+    --quinquenaria: rgb(226,226,226);
 
 
 }
@@ -27,16 +29,13 @@ nav{
 #banner{
 
     width: 100%;
-    height: 800px;
-    background-color: rgb(226, 138, 66);
+    height: 500px;
+    background-color: var(--quaternaria);
     display: flex;
     justify-content: center;
-    background-image: url(/Bikes/images/ImagensGeral/5ff4c435731c3798850d206a641fcc58.jpg);
-    /* backgound repeat -   configuração de repetição de imagens*/
+    background-image: url(/images/ImagensGeral/banner1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: 100% 100%;  altura e largura*/
-    /* background-position - posiciona a imagem dentro do banner */
     background-position: center;
 }
 
@@ -58,12 +57,12 @@ header nav{
     background-color: var(--primaria);
     width: 100%;
     height: 100px;
-    color: rgb(123, 125, 128);   
+    color: var(--secundaria);
     display: flex;
     flex-wrap: wrap;    
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -78,12 +77,11 @@ header nav{
 
     width: 100%;
     height: 500px;
-    background-color: var(--terciaria);
+    background-color: var(--quaternaria);
     display: flex;
-    justify-content:center; 
+    flex-wrap: wrap;    
     align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 250px;
     text-align: center;
 }
@@ -98,21 +96,65 @@ header nav{
  
 #noticias img {
 
-    width: 200px; 
-    height: 200px; 
+    width: 150px;
+    height: 150px; 
     border-radius: 100px 100px;
+    margin-top: 50px ;
     
+}
+
+#noticias p{
+
+    width: 228px; 
+    height: 30px; 
+    display: flex;
+    flex-direction: column;
+    text-align:center; 
+    margin: auto;
+    margin-top: 20px;
+}
+#noticias button{
+
+    width: 100px;
+    height: 20px;
+    display: flexbox;
+    align-content: above;
+  
+}
+
+#agenda{ 
+
+    width: 100%;
+    height: 500px;
+    margin-bottom: 200px;
+    padding: 20px 0px 20px 0px;
+    background-color: var(--quinquenaria);
+    text-align: center;
+}
+
+#gaveta{
+
+    width: 100px;
+    height: 15px;
+    margin-top: 30px;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgb(190, 146, 110);
+    gap: 30px; 
+}
+
+#eventos img{
+
+    width: 100px;
+    height: auto;
+    display: flexbox;
 }
 
 
 
 
 footer{
-    background-color: var(--primaria);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-    
+      
 }
