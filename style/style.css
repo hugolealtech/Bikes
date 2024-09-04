@@ -72,7 +72,51 @@ header nav{
     color: var(--secundaria);
     text-decoration: none;
  }
- 
+
+/* galeria */
+ #galeria{
+    width: 100%;
+    background-color: burlywood;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
  #noticias {
 
     width: 100%;
@@ -85,15 +129,11 @@ header nav{
     gap: 250px;
     text-align: center;
 }
-
 #noticas h1{
 
     margin-top: 50px;
 
 }
-
-
- 
 #noticias img {
 
     width: 150px;
@@ -102,7 +142,6 @@ header nav{
     margin-top: 50px ;
     
 }
-
 #noticias p{
 
     width: 228px; 
@@ -121,7 +160,6 @@ header nav{
     align-content: above;
   
 }
-
 #agenda{ 
 
     width: 100%;
@@ -131,7 +169,6 @@ header nav{
     background-color: var(--quinquenaria);
     text-align: center;
 }
-
 #gaveta{
 
     width: 100px;
@@ -144,7 +181,6 @@ header nav{
     border: 1px solid rgb(190, 146, 110);
     gap: 30px; 
 }
-
 .eventos,h1{
 
    background-color: cadetblue;
@@ -158,13 +194,9 @@ header nav{
    margin-top: 30px;
 
 }
-
 .eventos p{
     width: 200px;
 }
-
-
-
 .eventos img{
 
     width: 20%;
@@ -172,8 +204,6 @@ header nav{
     display: inline-block;
     justify-items: flex-start;
 }
-
-
 .galeria{
     background-color: aqua;
     width: 100%;
@@ -188,7 +218,6 @@ header nav{
     height: 200px;
     
 }
-
 footer{
       
     width: 100%;
@@ -202,6 +231,7 @@ footer{
     shape-image-threshold: initial;
     color: var(--quinquenaria);
 }
+*/
 
 
 
