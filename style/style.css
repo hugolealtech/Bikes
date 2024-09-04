@@ -73,47 +73,98 @@ header nav{
     text-decoration: none;
  }
 
+
+
 /* galeria */
  #galeria{
+
     width: 100%;
-    background-color: burlywood;
+    background-color: rgb(163, 187, 165);
+    padding: 10px 0px;
+    text-align: center;
+ }
+
+ #galeriaImagens{ /*pai*/
+
+    width: 100%;    
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 2px; */
+    
+ }
+
+ .galeriaImagem{ 
+
+    width: 20%;
+    height: 200px;
+    background-image: url(../images/ImagensGeral/bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 2px;
  }
 
 
+ #galeriaImg1{
 
+ background-image: url(../images/ImagensGeral//193013_10150115455117379_22764457378_6771398_1578764_o.jpg);
 
+ }
 
+ #galeriaImg2{
 
+    background-image: url(../images/ImagensGeral/275-bike.jpg);
+   
+}
 
+#galeriaImg3{
 
+ background-image: url(../images/ImagensGeral/c9b431a8cbe5b1ff93d152cf6e3ebf16.jpg);
 
+ }
 
+ #galeriaImg4{
 
+    background-image: url(../images/ImagensGeral/foto6.jpg);
+   
+}
 
+#galeriaImg5{
 
+    background-image: url(../images/ImagensGeral/foto3.jpg);
 
+}
 
+#galeriaImg6{
 
+    background-image: url(../images/ImagensGeral/bike\ na\ rua.jpg);
 
+}
 
+#galeriaImg7{
 
+    background-image: url(../images/ImagensGeral/c4fe9d5ff5faa035af332874882a3932.jpg);
+   
+}
 
+#galeriaImg8{
 
+    background-image: url(../images/ImagensGeral/trabalho-bike.jpg);
+   
+}
 
+#galeriaImg9{
 
+    background-image: url(../images/ImagensGeral/3955999424_c724298299_o.jpg);
+   
+}
 
+#galeriaImg10{
 
-
-
-
-
-
-
-
-
-
-
-
+    background-image: url(../images/ImagensGeral/RTEmagicC_ciclovia_01.jpg.jpg);
+   
+}
 
 
 /*  
