@@ -74,6 +74,70 @@ header nav{
  }
 
 
+/* topicos*/
+
+#topicos{
+
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.topico , #agenda{
+
+    width: 30%;
+    /* background-color: rgb(136, 163, 204); */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.topicoImg{
+
+    width: 150px;
+    border-radius: 100%;
+    overflow: hidden; /* omite o que estourar na div*/
+}
+
+.topicoImg img{
+
+    width: 100%;
+    /* border-radius: 100%; */
+}
+
+.botao{
+
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.dataEvento{
+
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primaria);
+}
+
+.evento #topico{
+
+    flex-direction: row;
+    align-items: start;
+}
+
+.evento .botao{
+
+    width: 100px;
+}
+
 
 /* galeria */
  #galeria{
